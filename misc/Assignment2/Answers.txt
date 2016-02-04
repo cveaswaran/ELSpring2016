@@ -1,0 +1,87 @@
+
+pi@raspberrypi:~$ ifconfig
+
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:f4:73:ef  
+          inet6 addr: fe80::1226:8ba1:ef2d:1acf/64 Scope:Link
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:200 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:200 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:16656 (16.2 KiB)  TX bytes:16656 (16.2 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:e0:4c:1d:44:ec  
+          inet addr:192.168.2.131  Bcast:192.168.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::285:15a4:a178:a826/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:283 errors:0 dropped:74 overruns:0 frame:0
+          TX packets:94 errors:0 dropped:1 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:48883 (47.7 KiB)  TX bytes:13295 (12.9 KiB)
+
+
+pi@raspberrypi:~$ df -h
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        15G  3.5G   11G  26% /
+devtmpfs        182M     0  182M   0% /dev
+tmpfs           186M     0  186M   0% /dev/shm
+tmpfs           186M  4.4M  182M   3% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           186M     0  186M   0% /sys/fs/cgroup
+/dev/mmcblk0p1   60M   20M   41M  34% /boot
+tmpfs            38M     0   38M   0% /run/user/1000
+
+pi@raspberrypi:~$ du -sk ~/
+
+pi@raspberrypi:~$ du -sh ~/
+
+pi@raspberrypi:~$ ps xa
+
+pi@raspberrypi:~$ ps xa
+
+pi@raspberrypi:~$ date
+
+pi@raspberrypi:~$ who
+
+pi@raspberrypi:~$ whoami
+
+pi@raspberrypi:~$ which pytho
+
+pi@raspberrypi:~$ which nano
+
+pi@raspberrypi:~$ ls /sbin
+
+pi@raspberrypi:~$ lsmod
+
+pi@raspberrypi:~$ which mount
+
+pi@raspberrypi:~$ mount
+
+pi@raspberrypi:~$ which sqlite
+
+pi@raspberrypi:~$ which sqlite3
+
+pi@raspberrypi:~$ sudo apt-get install sqlite3
+
+pi@raspberrypi:~$ which sqlite3
+
+pi@raspberrypi:~$ dpkg -l installed_packages.txt >installed_packages.txt
+
+pi@raspberrypi:~$ tail installed_packages.txt
+
+pi@raspberrypi:~$ wc -l installed_packages.txt 
+
+pi@raspberrypi:~$ find / -iname 'syslog*'
+
+pi@raspberrypi:~$ find / -iname 'syslog*' 2>/dev/null
+
+
